@@ -1,6 +1,10 @@
 Virtual AI Assistant for Lung Cancer Detection System
+
+
 🚀 Introduction
 Welcome to the Virtual AI Assistant for Lung Cancer Detection! This powerful, interactive platform combines machine learning, modern frontend UI, and intelligent voice interactivity to help users interactively detect and understand lung cancer outcomes. It offers both text and voice-based support, giving users flexibility and accessibility.
+
+
 🛠️ Technologies Used
 - React (with Bootstrap) for frontend
 - Flask (Python) for backend API
@@ -8,6 +12,8 @@ Welcome to the Virtual AI Assistant for Lung Cancer Detection! This powerful, in
 - TensorFlow/Keras hybrid model for lung cancer classification
 - Web Speech API for speech recognition and synthesis
 - HTML5/CSS3 with responsive design and dark/light theme toggle
+
+  
 ✨ Key Features
 •	• Interactive chatbot using a Hugging Face NLP model
 •	• Voice assistant with speech recognition and TTS (text-to-speech)
@@ -18,6 +24,9 @@ Welcome to the Virtual AI Assistant for Lung Cancer Detection! This powerful, in
 •	• Export chat history as a .txt file
 •	• Theme switching (Light/Dark mode)
 •	• Mobile responsive layout (chatbox styled to mobile screen size)
+
+
+
 📦 Modules & Implementation Breakdown
 1. ChatBox.jsx: Handles the frontend chat UI, voice recognition, and chatbot responses.
 2. ChatBox.css: Custom styles for modern look, dark/light themes, animations.
@@ -35,7 +44,7 @@ Welcome to the Virtual AI Assistant for Lung Cancer Detection! This powerful, in
    • Navigate to frontend directory
    • Run: npm install
    • Start React app: npm start
-4. Access the application at http://localhost:3000
+4. Access the application at http://localhost:5173
 
 🎉 Final Thoughts
 This project is a fantastic blend of AI, web technologies, and human-computer interaction. It's built with modularity, responsiveness, and accessibility in mind. We hope this assistant helps users understand their medical results better and inspires further innovation.
