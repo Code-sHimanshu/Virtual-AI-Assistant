@@ -1,0 +1,119 @@
+body.light {
+    background-color: #f5f7fa;
+    color: #222;
+}
+
+body.dark {
+    background-color: #1e1e2f;
+    color: #f1f1f1;
+}
+
+.chat-container {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    background-color: inherit;
+    position: relative;
+}
+
+.chat-header {
+    padding: 10px 15px;
+    background-color: #4c63b6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-buttons button {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.chat-body {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.message {
+    padding: 8px 12px;
+    margin: 8px 0;
+    border-radius: 10px;
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+.message.user {
+    align-self: flex-end;
+    background-color: #4c63b6;
+    color: white;
+}
+
+.message.bot {
+    align-self: flex-start;
+    background-color: #e2e8f0;
+    color: #000;
+}
+
+.chat-input-area {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    background-color: inherit;
+}
+
+.chat-input-area input {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-right: 8px;
+}
+
+.chat-input-area button {
+    padding: 8px 12px;
+    background-color: #4c63b6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.mic-btn, .voice-toggle-btn {
+    position: fixed;
+    bottom: 20px;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    z-index: 999;
+}
+
+.mic-btn {
+    right: 20px;
+    background-color: #4c63b6;
+}
+
+.voice-toggle-btn {
+    right: 80px;
+    background-color: #2d3748;
+}
+
+.listening-animation {
+    font-style: italic;
+    color: #718096;
+    margin-top: 5px;
+    font-size: 14px;
+}
